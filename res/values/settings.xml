@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Declare the type of gallery fb:Facebook, nextgen:NextGen WordPress -->
+    <string name="type">fb</string>
+
+    <!-- Facebook Gallery Setting -->
+    <string name="fb_page_id">108202125936184</string>
+
+    <!--Wordpress Blog adress -->
+    <string name="server_address">http://www.vittoriocontarina.it/</string>
+    <string name="resizer_address">http://nextwebart.com/demo/newsapp/timthumb.php</string>
+    <string name="sub_url">wp-content/gallery/album/</string>
+
+    <!-- Configure the Gallery -->
+    <string name="show_description_at_click">true</string>
+    <string name="show_empty_description">false</string>
+    <string name="clean_cache">3</string>   
+    <string name="use_only_local_images">yes</string>
+    <string name="image_quality">30</string>
+    
+
+
+    <!-- Configure Facebook page -->
+    <string name="fb_page_in_tab">contarina.vittorio</string>
+
+    <!-- Configure Twitter page -->
+    <string name="twitter">Contarina</string>
+
+    <!-- Configure YouTube videos -->
+    <string name="user_uploads">ContarinaVittorio</string>
+    <string name="user_favorites">youtube</string>
+
+    <!-- Configure the ADS -->
+    <string name="display_ads">yes</string>
+    <string name="ad_unit_id">a150291b5364366</string>
+
+    <!-- Configure the Analytics      &#8211;    is a -   dash -->
+    <string name="ga_api_key">UA&#8211;29732370&#8211;2</string>
+    <item name="ga_auto_activity_tracking" type="bool">true</item>
+
+
+</resources>

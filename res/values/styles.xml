@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_tab_bottom">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="background_def">
+        <item name="android:background">@drawable/background</item>
+    </style>
+
+    <style name="background_defa">
+        <item name="android:background">@drawable/bg</item>
+    </style>
+
+    <style name="title" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="sub_title" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#858585</item>
+    </style>
+
+    <style name="main_tab_top">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="home_style">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="lista" parent="@android:style/Widget.AbsListView">
+
+        <!-- <item name="android:listSelector">@drawable/list_click_bg</item> -->
+        <item name="android:background">#DADADC</item>
+        <!-- <item name="android:divider">@drawable/topbgl</item> -->
+        <item name="android:cacheColorHint">#00000000</item>
+    </style>
+
+    <style name="title_white" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_black" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#333637</item>
+    </style>
+
+    <style name="element_des" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#858585</item>
+    </style>
+
+    <style name="element_des_black" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="suggestion_black" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#7D7D7D</item>
+    </style>
+
+    <style name="button_text">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+</resources>

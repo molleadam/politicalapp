@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/list_bg"
+    android:minHeight="52dp" >
+
+    <LinearLayout
+        android:id="@+id/imageHolderLayout"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="4dip"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:contentDescription="@string/img_description" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4dip"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/toptext"
+            style="@style/title_black"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:paddingTop="8dip"
+            android:singleLine="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/botomntext"
+            style="@style/element_des"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dip"
+            android:singleLine="true"
+            android:text="" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iconGo"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="6dip"
+        android:contentDescription="@string/img_description" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dip"
+            android:contentDescription="@string/img_description"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+</LinearLayout>

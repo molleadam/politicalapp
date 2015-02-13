@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vittorio Contarina</string>
+    <string name="tab_1_title">News</string>
+    <string name="tab_2_title">Gallery</string>
+    <string name="tab_3_title">FB</string>
+    <string name="tab_4_title">Twitter</string>
+    <string name="tab_5_title">Videos</string>
+    <string name="description">Description: </string>
+    <string name="save_folder">WordpressGallery</string>
+    <string name="download_image">Download Image</string>
+    <string name="download">Download</string>
+    <string name="downloading_image">Downloading Image</string>
+    <string name="downloaded_image">Image will be downloaded to SD card for 1 second.</string>
+    <string name="set_wallpaper">Set as wallpaper</string>
+    <string name="seted_wallpaper">Wallpaper will be set for 1 second.</string>
+    <string name="sq">Search query not valid.</string>
+    <string name="snr">No results.Try another query</string>
+    <string name="nonet">No results.The internet connection is down.</string>
+    <string name="yt">Videos</string>
+    <string name="yt_user">YouTube Videos</string>
+    <string name="uploads">My uploads</string>
+    <string name="favorite">Favorites</string>
+    <string name="read_full">Read full article</string>
+    <string name="recent">Recent</string>
+    <string name="news">News</string>
+    <string name="categories">Categories</string>
+    <string name="img_description">Image</string>
+     <string name="share">Share</string>
+    
+    
+    <string name="fql_query">https://api.facebook.com/method/fql.query</string>
+    <string name="fql_query_cover_photos">SELECT src_small FROM photo WHERE pid IN (SELECT cover_pid FROM album WHERE owner="%1$s" and cover_pid >0)</string>
+    <string name="fql_query_albums">SELECT cover_pid,aid, owner, name,object_id,description FROM album WHERE owner="%1$s" and cover_pid >0</string>
+    <string name="fql_query_album_details">SELECT  pid,caption,src,src_big FROM photo WHERE aid=\"%1$s\"</string>
+
+
+</resources>
